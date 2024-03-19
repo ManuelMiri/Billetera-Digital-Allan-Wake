@@ -1,0 +1,48 @@
+html {
+  min-height: 100%;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* Estilos adicionales para el menú navbar */
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  background-color: aquamarine; /* Cambiar color de el logo al pasar el ratón */
+}
+
+.navbar-nav .nav-link {
+  color: rgb(247, 253, 251); /* Color de texto de los enlaces */
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(53, 42, 204); /* Cambiar color de texto al pasar el ratón */
+}
+
+.navbar-nav .nav-link .active {
+  font-weight: bold; /* Estilo para el enlace activo */
+}
+h2 {
+  text-align: center;
+  padding: 5vh;
+  font-family: "roboto", sans-serif; /* Cambia "Arial" por la fuente que prefieras */
+  font-size: 2em; /* Tamaño de fuente */
+  font-weight: bold; /* Negrita */
+  color: #333; /* Color de texto */
+}
+
+/*linea divisora en estructuras semanticas*/
+.b-example-divider {
+  width: 100%;
+  height: 2rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+/* Estilos para el footer*/
